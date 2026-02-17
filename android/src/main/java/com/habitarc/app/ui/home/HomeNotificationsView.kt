@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import android.os.Build
 import androidx.activity.compose.LocalActivity
@@ -20,10 +20,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.MainActivity
-import me.timeto.app.R
-import me.timeto.app.openNotificationSettings
-import me.timeto.app.ui.*
+import com.habitarc.app.MainActivity
+import com.habitarc.app.R
+import com.habitarc.app.openNotificationSettings
+import com.habitarc.app.ui.*
 import me.timeto.shared.reportApi
 import me.timeto.shared.vm.home.HomeVm.NotificationsPermissionUi
 

@@ -1,15 +1,15 @@
-package me.timeto.app.ui.calendar.list
+package com.habitarc.app.ui.calendar.list
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
-import me.timeto.app.ui.tasks.tab.TasksTabView__PADDING_END
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
+import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
 import me.timeto.shared.vm.calendar.CalendarListVm
 
 @Composable

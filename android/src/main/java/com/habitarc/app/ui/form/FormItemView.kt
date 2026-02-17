@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form
+package com.habitarc.app.ui.form
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.PaddingValues
@@ -9,11 +9,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.SquircleShape
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.SquircleShape
 
 @Composable
 fun FormItemView(

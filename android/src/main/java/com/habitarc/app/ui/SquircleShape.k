@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Outline

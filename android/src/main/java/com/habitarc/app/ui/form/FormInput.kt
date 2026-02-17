@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form
+package com.habitarc.app.ui.form
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -24,10 +24,10 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.halfDpCeil
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.halfDpCeil
 
 @Composable
 fun FormInput(

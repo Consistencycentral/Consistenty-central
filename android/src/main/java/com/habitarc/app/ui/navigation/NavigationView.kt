@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation
+package com.habitarc.app.ui.navigation
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
@@ -14,7 +14,7 @@ import androidx.compose.runtime.key
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
-import me.timeto.app.ui.ZStack
+import com.habitarc.app.ui.ZStack
 
 @Composable
 fun NavigationView(

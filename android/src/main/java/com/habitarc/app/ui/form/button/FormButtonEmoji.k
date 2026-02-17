@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.button
+package com.habitarc.app.ui.form.button
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
+import com.habitarc.app.ui.HStack
 
 val FormButtonEmoji__fontSize: TextUnit = 20.sp
 

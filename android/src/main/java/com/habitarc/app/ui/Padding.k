@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width

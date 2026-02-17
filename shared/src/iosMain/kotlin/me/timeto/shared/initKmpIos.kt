@@ -4,7 +4,7 @@ package me.timeto.shared
 
 import kotlinx.cinterop.*
 import kotlinx.coroutines.flow.launchIn
-import me.timeto.appdbsq.TimetomeDB
+import com.habitarc.appdbsq.TimetomeDB
 import platform.Foundation.*
 import platform.UIKit.UIDevice
 import me.timeto.shared.db.*

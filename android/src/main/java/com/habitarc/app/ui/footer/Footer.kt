@@ -1,4 +1,4 @@
-package me.timeto.app.ui.footer
+package com.habitarc.app.ui.footer
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.layout.RowScope
@@ -12,12 +12,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.main.MainTabsView__height
-import me.timeto.app.ui.main.MainTabsView__backgroundColor
-import me.timeto.app.ui.main.MainTabsView__dividerColor
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.main.MainTabsView__height
+import com.habitarc.app.ui.main.MainTabsView__backgroundColor
+import com.habitarc.app.ui.main.MainTabsView__dividerColor
 
 @Composable
 fun Footer(

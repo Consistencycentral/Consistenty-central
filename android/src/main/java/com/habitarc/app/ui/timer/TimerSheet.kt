@@ -1,4 +1,4 @@
-package me.timeto.app.ui.timer
+package com.habitarc.app.ui.timer
 
 import android.widget.NumberPicker
 import androidx.compose.foundation.clickable
@@ -17,18 +17,18 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.dpToPx
-import me.timeto.app.isSdkQPlus
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.header.sheet.HeaderSheet
-import me.timeto.app.ui.header.sheet.HeaderSheetButton
-import me.timeto.app.ui.navigation.LocalNavigationLayer
-import me.timeto.app.ui.squircleShape
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.dpToPx
+import com.habitarc.app.isSdkQPlus
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.header.sheet.HeaderSheet
+import com.habitarc.app.ui.header.sheet.HeaderSheetButton
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.squircleShape
 import me.timeto.shared.vm.timer_picker.TimerPickerVm
 
 @Composable

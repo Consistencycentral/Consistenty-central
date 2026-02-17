@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.sorted
+package com.habitarc.app.ui.form.sorted
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.lazy.LazyColumn
@@ -8,7 +8,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.ZStack
+import com.habitarc.app.ui.ZStack
 
 @Composable
 fun <Item> FormSortedList(

@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.sorted
+package com.habitarc.app.ui.form.sorted
 
 import android.view.MotionEvent
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -27,16 +27,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.R
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.goldenRatioDown
-import me.timeto.app.Haptic
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.form.form__itemMinHeight
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.R
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.goldenRatioDown
+import com.habitarc.app.Haptic
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.form.form__itemMinHeight
 import kotlin.math.absoluteValue
 
 private val deleteIconSize: Dp = 20.dp

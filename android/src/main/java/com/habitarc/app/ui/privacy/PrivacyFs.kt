@@ -1,4 +1,4 @@
-package me.timeto.app.ui.privacy
+package com.habitarc.app.ui.privacy
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
@@ -13,19 +13,19 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.c
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.showOpenSource
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.form.FormSwitch
-import me.timeto.app.ui.header.Header
-import me.timeto.app.ui.header.HeaderActionButton
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.showOpenSource
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.form.FormSwitch
+import com.habitarc.app.ui.header.Header
+import com.habitarc.app.ui.header.HeaderActionButton
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.vm.privacy.PrivacyVm
 
 @Composable

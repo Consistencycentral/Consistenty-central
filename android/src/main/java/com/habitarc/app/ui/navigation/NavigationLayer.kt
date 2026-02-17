@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation
+package com.habitarc.app.ui.navigation
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition

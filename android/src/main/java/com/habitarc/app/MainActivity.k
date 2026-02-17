@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import android.app.Activity
 import android.content.*
@@ -32,14 +32,14 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.lifecycle.Lifecycle
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.filterNotNull
-import me.timeto.app.ui.LifecycleListener
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.main.MainScreen
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.NavigationFs
-import me.timeto.app.ui.pxToDp
-import me.timeto.app.ui.rememberVm
+import com.habitarc.app.ui.LifecycleListener
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.main.MainScreen
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.NavigationFs
+import com.habitarc.app.ui.pxToDp
+import com.habitarc.app.ui.rememberVm
 import me.timeto.shared.db.ShortcutDb
 import me.timeto.shared.BatteryInfo
 import me.timeto.shared.LiveActivity

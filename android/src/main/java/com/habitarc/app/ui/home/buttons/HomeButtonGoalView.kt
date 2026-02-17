@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home.buttons
+package com.habitarc.app.ui.home.buttons
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -21,23 +21,23 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.R
-import me.timeto.app.toColor
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.daytime_picker.DaytimePickerSheet
-import me.timeto.app.ui.goals.form.Goal2FormFs
-import me.timeto.app.ui.home.HomeScreen__itemCircleFontSize
-import me.timeto.app.ui.home.HomeScreen__itemCircleFontWeight
-import me.timeto.app.ui.home.HomeScreen__itemCircleHPadding
-import me.timeto.app.ui.home.HomeScreen__itemCircleHeight
-import me.timeto.app.ui.home.HomeScreen__itemHeight
-import me.timeto.app.ui.home.settings.HomeSettingsButtonsFs
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.picker.NavigationPickerItem
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.timer.TimerSheet
+import com.habitarc.app.R
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.daytime_picker.DaytimePickerSheet
+import com.habitarc.app.ui.goals.form.Goal2FormFs
+import com.habitarc.app.ui.home.HomeScreen__itemCircleFontSize
+import com.habitarc.app.ui.home.HomeScreen__itemCircleFontWeight
+import com.habitarc.app.ui.home.HomeScreen__itemCircleHPadding
+import com.habitarc.app.ui.home.HomeScreen__itemCircleHeight
+import com.habitarc.app.ui.home.HomeScreen__itemHeight
+import com.habitarc.app.ui.home.settings.HomeSettingsButtonsFs
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.timer.TimerSheet
 import me.timeto.shared.DaytimeUi
 import me.timeto.shared.vm.home.buttons.HomeButtonType
 

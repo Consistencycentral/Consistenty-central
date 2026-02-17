@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -21,14 +21,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.R
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.tasks.TaskTimerFs
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.R
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.tasks.TaskTimerFs
 import me.timeto.shared.TextFeatures
 import me.timeto.shared.vm.home.HomeVm
 

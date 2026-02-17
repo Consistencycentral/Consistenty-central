@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation.picker
+package com.habitarc.app.ui.navigation.picker
 
 data class NavigationPickerItem<T>(
     val title: String,

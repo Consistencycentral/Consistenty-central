@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import me.timeto.shared.UnixTime
 import java.util.Date

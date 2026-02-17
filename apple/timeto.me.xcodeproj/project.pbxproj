@@ -420,7 +420,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -461,7 +461,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -488,7 +488,7 @@
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = TimeTo.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.timeto.app;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.habitarc.app;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -503,7 +503,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app.watch;
 				PRODUCT_NAME = timeto.me;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -530,7 +530,7 @@
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = TimeTo.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.timeto.app;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.habitarc.app;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -545,7 +545,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app.watch;
 				PRODUCT_NAME = timeto.me;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -724,7 +724,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app;
 				PRODUCT_NAME = TimeTo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -789,7 +789,7 @@
 					"-framework",
 					shared,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.timeto.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitarc.app;
 				PRODUCT_NAME = TimeTo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;

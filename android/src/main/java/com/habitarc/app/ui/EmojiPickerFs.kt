@@ -1,4 +1,4 @@
-package me.timeto.app.ui.emoji
+package com.habitarc.app.ui.emoji
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -33,19 +33,19 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.R
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.halfDpCeil
-import me.timeto.app.ui.halfDpFloor
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.header.views.HeaderView
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.R
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.halfDpCeil
+import com.habitarc.app.ui.halfDpFloor
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.header.views.HeaderView
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.vm.emoji.EmojiPickerVm
 
 @Composable

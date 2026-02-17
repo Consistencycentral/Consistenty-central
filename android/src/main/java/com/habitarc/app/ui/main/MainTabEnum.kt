@@ -1,4 +1,4 @@
-package me.timeto.app.ui.main
+package com.habitarc.app.ui.main
 
 enum class MainTabEnum {
     home,

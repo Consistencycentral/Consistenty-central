@@ -1,16 +1,16 @@
-package me.timeto.app.ui.checklists
+package com.habitarc.app.ui.checklists
 
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.checklists.form.ChecklistFormItemsFs
-import me.timeto.app.ui.header.Header
-import me.timeto.app.ui.header.HeaderCancelButton
-import me.timeto.app.ui.header.HeaderSecondaryButton
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.checklists.form.ChecklistFormItemsFs
+import com.habitarc.app.ui.header.Header
+import com.habitarc.app.ui.header.HeaderCancelButton
+import com.habitarc.app.ui.header.HeaderSecondaryButton
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.db.ChecklistDb
 
 @Composable

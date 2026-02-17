@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation
+package com.habitarc.app.ui.navigation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.ColumnScope
@@ -13,12 +13,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.SquircleShape
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.SquircleShape
 
 private val dialogShape = SquircleShape(24.dp)
 

@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form
+package com.habitarc.app.ui.form
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -6,8 +6,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.c
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.c
 
 @Composable
 fun FormHeader(

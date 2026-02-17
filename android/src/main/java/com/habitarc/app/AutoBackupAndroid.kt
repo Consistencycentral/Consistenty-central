@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import android.content.ContentValues
 import android.os.Build

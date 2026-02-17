@@ -87,7 +87,7 @@ android {
 sqldelight {
     databases {
         create("TimetomeDB") {
-            packageName.set("me.timeto.appdbsq")
+            packageName.set("com.habitarc.appdbsq")
         }
     }
 }

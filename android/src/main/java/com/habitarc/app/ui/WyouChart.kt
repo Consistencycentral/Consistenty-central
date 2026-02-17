@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
@@ -21,7 +21,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.toColor
+import com.habitarc.app.toColor
 import me.timeto.shared.limitMax
 import me.timeto.shared.PieChart
 import java.lang.Math.PI

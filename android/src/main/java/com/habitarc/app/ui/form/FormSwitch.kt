@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form
+package com.habitarc.app.ui.form
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Switch
@@ -7,9 +7,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.c
-import me.timeto.app.ui.halfDpFloor
-import me.timeto.app.ui.form.button.FormButtonView
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.halfDpFloor
+import com.habitarc.app.ui.form.button.FormButtonView
 
 @Composable
 fun FormSwitch(

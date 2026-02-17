@@ -9,7 +9,7 @@ import kotlinx.coroutines.IO
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
-import me.timeto.appdbsq.TimetomeDB
+import com.habitarc.appdbsq.TimetomeDB
 
 internal const val DB_NAME = "timetome.db"
 internal lateinit var db: TimetomeDB

@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import android.app.Application
 import me.timeto.shared.initKmpAndroid

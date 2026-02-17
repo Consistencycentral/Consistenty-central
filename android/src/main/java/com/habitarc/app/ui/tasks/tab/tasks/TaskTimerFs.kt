@@ -1,4 +1,4 @@
-package me.timeto.app.ui.tasks
+package com.habitarc.app.ui.tasks
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
@@ -16,13 +16,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.*
-import me.timeto.app.ui.daytime_picker.DaytimePickerSheet
-import me.timeto.app.ui.goals.form.Goal2FormFs
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.LocalNavigationLayer
-import me.timeto.app.ui.navigation.picker.NavigationPickerItem
-import me.timeto.app.ui.timer.TimerSheet
+import com.habitarc.app.ui.*
+import com.habitarc.app.ui.daytime_picker.DaytimePickerSheet
+import com.habitarc.app.ui.goals.form.Goal2FormFs
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
+import com.habitarc.app.ui.timer.TimerSheet
 import me.timeto.shared.DaytimeUi
 import me.timeto.shared.db.TaskDb
 import me.timeto.shared.vm.tasks.TaskTimerVm

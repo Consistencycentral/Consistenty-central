@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import android.content.res.Resources
 import androidx.compose.ui.unit.dp

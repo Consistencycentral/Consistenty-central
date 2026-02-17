@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.plain
+package com.habitarc.app.ui.form.plain
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.background
@@ -17,14 +17,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.R
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.form.form__itemMinHeight
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.R
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.form.form__itemMinHeight
 
 @Composable
 fun FormPlainButtonSelection(

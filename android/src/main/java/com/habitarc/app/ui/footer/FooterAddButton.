@@ -1,4 +1,4 @@
-package me.timeto.app.ui.footer
+package com.habitarc.app.ui.footer
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.padding
@@ -12,11 +12,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.R
-import me.timeto.app.ui.c
-import me.timeto.app.ui.squircleShape
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.R
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.squircleShape
 
 @Composable
 fun FooterAddButton(

@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -14,11 +14,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.checklists.ChecklistScreen
-import me.timeto.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.checklists.ChecklistScreen
+import com.habitarc.app.ui.navigation.LocalNavigationFs
 import me.timeto.shared.vm.home.HomeVm
 import me.timeto.shared.performUi
 

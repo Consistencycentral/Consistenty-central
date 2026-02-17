@@ -17,7 +17,7 @@ import dbsq.TaskFolderSQ
 import dbsq.TaskSQ
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.async
-import me.timeto.appdbsq.TimetomeDB
+import com.habitarc.appdbsq.TimetomeDB
 import me.timeto.shared.db.db
 
 lateinit var initKmpDeferred: Deferred<Unit>

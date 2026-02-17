@@ -3,7 +3,7 @@ package me.timeto.shared
 import android.app.Application
 import android.os.Build
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
-import me.timeto.appdbsq.TimetomeDB
+import com.habitarc.appdbsq.TimetomeDB
 import me.timeto.shared.db.DB_NAME
 
 fun initKmpAndroid(

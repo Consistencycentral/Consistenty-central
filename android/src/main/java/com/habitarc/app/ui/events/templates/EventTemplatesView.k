@@ -1,4 +1,4 @@
-package me.timeto.app.ui.events.templates
+package com.habitarc.app.ui.events.templates
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
@@ -14,11 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.c
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.navigation.LocalNavigationFs
 import me.timeto.shared.vm.events.templates.EventTemplateUi
 import me.timeto.shared.vm.events.templates.EventTemplatesVm
 

@@ -1,4 +1,4 @@
-package me.timeto.app.ui.summary
+package com.habitarc.app.ui.summary
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
@@ -20,12 +20,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.toColor
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.WyouChart
-import me.timeto.app.ui.c
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.WyouChart
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
 import me.timeto.shared.vm.summary.SummaryVm
 import me.timeto.shared.vm.summary.SummaryChartVm
 

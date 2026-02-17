@@ -1,10 +1,10 @@
-package me.timeto.app.ui.form.button
+package com.habitarc.app.ui.form.button
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import me.timeto.app.ui.HStack
+import com.habitarc.app.ui.HStack
 
 @Composable
 fun FormButton(

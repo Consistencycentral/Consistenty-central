@@ -1,4 +1,4 @@
-package me.timeto.app.ui.daytime_picker
+package com.habitarc.app.ui.daytime_picker
 
 import android.widget.NumberPicker
 import androidx.compose.foundation.layout.*
@@ -7,10 +7,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.dpToPx
-import me.timeto.app.isSdkQPlus
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.dpToPx
+import com.habitarc.app.isSdkQPlus
 
 @Composable
 fun DaytimePickerView(

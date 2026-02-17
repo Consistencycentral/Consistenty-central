@@ -1,4 +1,4 @@
-package me.timeto.app.ui.header.views
+package com.habitarc.app.ui.header.views
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.ScrollState
@@ -14,8 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.ZStack
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.ZStack
 
 private const val animRatio = 50f
 private val backgroundColor: Color = Color(44, 44, 44)

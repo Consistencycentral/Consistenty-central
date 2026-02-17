@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation
+package com.habitarc.app.ui.navigation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -12,12 +12,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.header.Header__buttonFontSize
-import me.timeto.app.ui.header.Header__titleFontWeight
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.header.Header__buttonFontSize
+import com.habitarc.app.ui.header.Header__titleFontWeight
 
 @Composable
 fun NavigationAlert(

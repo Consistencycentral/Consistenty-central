@@ -1,7 +1,7 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.ui.graphics.Color
-import me.timeto.app.toColor
+import com.habitarc.app.toColor
 import me.timeto.shared.Palette
 import me.timeto.shared.vm.main.MainTabsVm
 

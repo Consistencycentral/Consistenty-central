@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home.buttons
+package com.habitarc.app.ui.home.buttons
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -11,10 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.home.HomeScreen__hPadding
-import me.timeto.app.ui.home.HomeScreen__itemHeight
-import me.timeto.app.ui.rememberVm
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.home.HomeScreen__hPadding
+import com.habitarc.app.ui.home.HomeScreen__itemHeight
+import com.habitarc.app.ui.rememberVm
 import me.timeto.shared.vm.home.buttons.HomeButtonType
 import me.timeto.shared.vm.home.buttons.HomeButtonsVm
 

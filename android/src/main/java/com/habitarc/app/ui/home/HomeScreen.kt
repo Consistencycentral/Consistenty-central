@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import android.os.Build
 import androidx.activity.compose.LocalActivity
@@ -19,19 +19,19 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.pxToDp
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.checklists.ChecklistView
-import me.timeto.app.ui.Padding
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.home.buttons.HomeButtonsView
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.privacy.PrivacyFs
-import me.timeto.app.ui.whats_new.WhatsNewFs
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.pxToDp
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.checklists.ChecklistView
+import com.habitarc.app.ui.Padding
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.home.buttons.HomeButtonsView
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.privacy.PrivacyFs
+import com.habitarc.app.ui.whats_new.WhatsNewFs
 import me.timeto.shared.vm.home.HomeVm
 
 val HomeScreen__primaryFontSize = 16.sp

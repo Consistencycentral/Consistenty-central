@@ -1,4 +1,4 @@
-package me.timeto.app.ui.daytime_picker
+package com.habitarc.app.ui.daytime_picker
 
 import android.view.MotionEvent
 import androidx.compose.animation.core.Spring
@@ -22,15 +22,15 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import me.timeto.app.Haptic
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.Padding
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.pxToDp
-import me.timeto.app.ui.roundedShape
+import com.habitarc.app.Haptic
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.Padding
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.pxToDp
+import com.habitarc.app.ui.roundedShape
 import me.timeto.shared.DaytimeUi
 import me.timeto.shared.DaytimePickerSliderUi
 

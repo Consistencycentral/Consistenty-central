@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import androidx.compose.ui.graphics.Color
 import me.timeto.shared.ColorRgba

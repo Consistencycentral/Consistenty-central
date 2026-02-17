@@ -1,6 +1,6 @@
 package me.timeto.shared
 
-import me.timeto.appdbsq.TimetomeDB
+import com.habitarc.appdbsq.TimetomeDB
 import me.timeto.shared.db.DB_NAME
 import platform.Foundation.NSBundle
 import platform.WatchKit.WKInterfaceDevice

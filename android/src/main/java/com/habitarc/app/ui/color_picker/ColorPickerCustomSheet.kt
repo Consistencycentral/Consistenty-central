@@ -1,4 +1,4 @@
-package me.timeto.app.ui.color_picker
+package com.habitarc.app.ui.color_picker
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -20,15 +20,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.toColor
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.ColorRgba
 import me.timeto.shared.vm.color_picker.ColorPickerVm
 

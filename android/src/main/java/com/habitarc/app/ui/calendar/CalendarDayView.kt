@@ -1,4 +1,4 @@
-package me.timeto.app.ui.calendar
+package com.habitarc.app.ui.calendar
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -15,19 +15,19 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.calendar.list.CalendarListItemView
-import me.timeto.app.ui.events.EventFormFs
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.tasks.tab.repeatings.TasksTabRepeatingsItemView
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.calendar.list.CalendarListItemView
+import com.habitarc.app.ui.events.EventFormFs
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.tasks.tab.repeatings.TasksTabRepeatingsItemView
 import me.timeto.shared.vm.calendar.CalendarDayVm
 
 @Composable

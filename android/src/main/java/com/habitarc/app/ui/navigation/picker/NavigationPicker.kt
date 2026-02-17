@@ -1,4 +1,4 @@
-package me.timeto.app.ui.navigation.picker
+package com.habitarc.app.ui.navigation.picker
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.defaultMinSize
@@ -16,13 +16,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.R
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.halfDpFloor
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.R
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.halfDpFloor
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 
 @Composable
 fun <T> NavigationPicker(

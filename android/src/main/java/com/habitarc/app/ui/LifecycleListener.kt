@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect

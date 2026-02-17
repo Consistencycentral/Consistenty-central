@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -27,20 +27,20 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.R
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.timerFont
-import me.timeto.app.toColor
-import me.timeto.app.ui.daytime_picker.DaytimePickerSheet
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.readme.ReadmeFs
-import me.timeto.app.ui.timer.TimerSheet
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.R
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.timerFont
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.daytime_picker.DaytimePickerSheet
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.readme.ReadmeFs
+import com.habitarc.app.ui.timer.TimerSheet
 import me.timeto.shared.vm.home.HomeVm
 import me.timeto.shared.vm.readme.ReadmeVm
 

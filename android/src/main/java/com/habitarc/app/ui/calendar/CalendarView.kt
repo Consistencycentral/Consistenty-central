@@ -1,4 +1,4 @@
-package me.timeto.app.ui.calendar
+package com.habitarc.app.ui.calendar
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -19,14 +19,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.tasks.tab.TasksTabView__PADDING_END
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
 import me.timeto.shared.vm.calendar.CalendarVm
 
 @Composable

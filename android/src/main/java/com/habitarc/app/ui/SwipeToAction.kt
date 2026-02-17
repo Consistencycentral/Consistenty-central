@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -19,8 +19,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
-import me.timeto.app.Haptic
-import me.timeto.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.Haptic
+import com.habitarc.app.ui.navigation.LocalNavigationFs
 import kotlin.math.absoluteValue
 
 @OptIn(ExperimentalMaterialApi::class)

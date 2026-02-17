@@ -1,4 +1,4 @@
-package me.timeto.app.ui.tasks.tab.repeatings
+package com.habitarc.app.ui.tasks.tab.repeatings
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -14,15 +14,15 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.ui.c
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.repeatings.form.RepeatingFormFs
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
-import me.timeto.app.ui.tasks.tab.TasksTabView__PADDING_END
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.repeatings.form.RepeatingFormFs
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
+import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
 import me.timeto.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
 
 @Composable

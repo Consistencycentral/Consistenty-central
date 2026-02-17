@@ -1,4 +1,4 @@
-package me.timeto.app
+package com.habitarc.app
 
 import android.content.Intent
 import android.content.Intent.FLAG_ACTIVITY_NEW_TASK

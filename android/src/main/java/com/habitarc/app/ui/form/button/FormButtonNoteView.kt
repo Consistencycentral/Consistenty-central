@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.button
+package com.habitarc.app.ui.form.button
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.offset
@@ -10,7 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.c
+import com.habitarc.app.ui.c
 
 @Composable
 fun RowScope.FormButtonNoteView(

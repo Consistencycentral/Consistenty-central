@@ -1,4 +1,4 @@
-package me.timeto.app.ui.activity
+package com.habitarc.app.ui.activity
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
@@ -19,17 +19,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.history.HistoryFs
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.summary.SummaryFs
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.summary.SummaryCalendarFs
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.history.HistoryFs
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.summary.SummaryFs
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.summary.SummaryCalendarFs
 import me.timeto.shared.vm.summary.SummaryVm
 
 @Composable

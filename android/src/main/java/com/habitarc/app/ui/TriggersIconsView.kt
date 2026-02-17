@@ -1,4 +1,4 @@
-package me.timeto.app.ui
+package com.habitarc.app.ui
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.clickable
@@ -12,9 +12,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import me.timeto.app.R
-import me.timeto.app.ui.checklists.ChecklistScreen
-import me.timeto.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.R
+import com.habitarc.app.ui.checklists.ChecklistScreen
+import com.habitarc.app.ui.navigation.LocalNavigationFs
 import me.timeto.shared.db.ChecklistDb
 import me.timeto.shared.db.ShortcutDb
 import me.timeto.shared.performUi

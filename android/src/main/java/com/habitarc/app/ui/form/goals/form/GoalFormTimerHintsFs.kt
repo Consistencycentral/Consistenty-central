@@ -1,4 +1,4 @@
-package me.timeto.app.ui.goals.form
+package com.habitarc.app.ui.goals.form
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.height
@@ -10,21 +10,21 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.form.plain.FormPlainButtonDeletion
-import me.timeto.app.ui.header.Header
-import me.timeto.app.ui.header.HeaderActionButton
-import me.timeto.app.ui.header.HeaderCancelButton
-import me.timeto.app.ui.home.HomeScreen__itemHeight
-import me.timeto.app.ui.home.HomeScreen__primaryFontSize
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.LocalNavigationLayer
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.timer.TimerSheet
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.form.plain.FormPlainButtonDeletion
+import com.habitarc.app.ui.header.Header
+import com.habitarc.app.ui.header.HeaderActionButton
+import com.habitarc.app.ui.header.HeaderCancelButton
+import com.habitarc.app.ui.home.HomeScreen__itemHeight
+import com.habitarc.app.ui.home.HomeScreen__primaryFontSize
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.timer.TimerSheet
 import me.timeto.shared.vm.goals.form.GoalFormTimerHintsVm
 
 @Composable

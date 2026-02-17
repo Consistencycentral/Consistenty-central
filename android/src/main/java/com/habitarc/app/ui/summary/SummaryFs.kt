@@ -1,4 +1,4 @@
-package me.timeto.app.ui.summary
+package com.habitarc.app.ui.summary
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.foundation.*
@@ -14,15 +14,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.*
-import me.timeto.app.toColor
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
+import com.habitarc.app.*
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
 import me.timeto.shared.vm.summary.SummaryVm
 
 private val barsHeaderHeight = 35.dp

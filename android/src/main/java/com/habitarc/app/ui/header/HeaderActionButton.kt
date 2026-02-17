@@ -1,4 +1,4 @@
-package me.timeto.app.ui.header
+package com.habitarc.app.ui.header
 
 data class HeaderActionButton(
     val text: String,

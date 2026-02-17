@@ -1,4 +1,4 @@
-package me.timeto.app.ui.tasks.tab
+package com.habitarc.app.ui.tasks.tab
 
 import androidx.compose.runtime.MutableState
 

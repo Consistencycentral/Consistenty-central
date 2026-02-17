@@ -4,9 +4,9 @@ This is a modified version of the original timeto.me project. All modifications 
 
 App Store https://apps.apple.com/us/app/id6448869727
 
-Google Play https://play.google.com/store/apps/details?id=me.timeto.app
+Google Play https://play.google.com/store/apps/details?id=com.habitarc.app
 
-F-Droid https://f-droid.org/en/packages/me.timeto.app
+F-Droid https://f-droid.org/en/packages/com.habitarc.app
 
 Any questions [ivan@timeto.me](mailto:ivan@timeto.me?subject=[GitHub]%20Feedback)
 

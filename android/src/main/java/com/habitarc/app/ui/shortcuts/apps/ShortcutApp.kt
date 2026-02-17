@@ -1,4 +1,4 @@
-package me.timeto.app.ui.shortcuts.apps
+package com.habitarc.app.ui.shortcuts.apps
 
 import android.graphics.drawable.Drawable
 

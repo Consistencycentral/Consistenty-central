@@ -1,4 +1,4 @@
-package me.timeto.app.ui.summary
+package com.habitarc.app.ui.summary
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.foundation.background
@@ -19,15 +19,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.Divider
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.navigation.LocalNavigationLayer
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.roundedShape
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.Divider
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.roundedShape
 import me.timeto.shared.UnixTime
 import me.timeto.shared.vm.summary.SummaryCalendarVm
 

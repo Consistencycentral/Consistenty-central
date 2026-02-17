@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form.button
+package com.habitarc.app.ui.form.button
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable
@@ -12,12 +12,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.c
-import me.timeto.app.ui.form.form__itemMinHeight
-import me.timeto.app.ui.form.FormItemView
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.form.form__itemMinHeight
+import com.habitarc.app.ui.form.FormItemView
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

@@ -1,12 +1,12 @@
-package me.timeto.app
+package com.habitarc.app
 
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import me.timeto.app.NotificationsUtils.NOTIFICATION_ID_BREAK
-import me.timeto.app.NotificationsUtils.NOTIFICATION_ID_NO_ACTIVITY_START
-import me.timeto.app.NotificationsUtils.NOTIFICATION_ID_OVERDUE
+import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_BREAK
+import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_NO_ACTIVITY_START
+import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_OVERDUE
 import me.timeto.shared.NotificationAlarm
 import me.timeto.shared.timeMls
 

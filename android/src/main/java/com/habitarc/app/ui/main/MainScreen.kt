@@ -1,16 +1,16 @@
-package me.timeto.app.ui.main
+package com.habitarc.app.ui.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.activity.ActivityScreen
-import me.timeto.app.ui.home.HomeScreen
-import me.timeto.app.ui.navigation.NavigationScreen
-import me.timeto.app.ui.settings.SettingsScreen
-import me.timeto.app.ui.tasks.tab.TasksTabView
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.activity.ActivityScreen
+import com.habitarc.app.ui.home.HomeScreen
+import com.habitarc.app.ui.navigation.NavigationScreen
+import com.habitarc.app.ui.settings.SettingsScreen
+import com.habitarc.app.ui.tasks.tab.TasksTabView
 
 @Composable
 fun MainScreen() {

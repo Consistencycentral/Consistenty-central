@@ -1,4 +1,4 @@
-package me.timeto.app.ui.home
+package com.habitarc.app.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -16,13 +16,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.SquircleShape
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.SquircleShape
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
 import me.timeto.shared.vm.home.HomeVm
-import me.timeto.app.openGooglePlayAppPage
+import com.habitarc.app.openGooglePlayAppPage
 
 private val shape = SquircleShape(12.dp)
 private val bottomMargin: Dp =

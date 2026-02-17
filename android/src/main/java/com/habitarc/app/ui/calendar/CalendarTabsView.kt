@@ -1,4 +1,4 @@
-package me.timeto.app.ui.calendar
+package com.habitarc.app.ui.calendar
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.animation.animateColorAsState
@@ -17,17 +17,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.goldenRatioUp
-import me.timeto.app.ui.halfDpCeil
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.calendar.list.CalendarListView
-import me.timeto.app.ui.tasks.tab.TasksTabView__PADDING_END
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.goldenRatioUp
+import com.habitarc.app.ui.halfDpCeil
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.calendar.list.CalendarListView
+import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
 
 private val menuTopPadding: Dp = 8.dp
 private val menuBottomPadding: Dp =

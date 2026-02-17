@@ -1,4 +1,4 @@
-package me.timeto.app.ui.readme
+package com.habitarc.app.ui.readme
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -24,13 +24,13 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.R
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.SquircleShape
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.header.Header
+import com.habitarc.app.R
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.SquircleShape
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.header.Header
 
 private val pTextLineHeight = 23.sp
 

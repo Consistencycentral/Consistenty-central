@@ -1,4 +1,4 @@
-package me.timeto.app.ui.history
+package com.habitarc.app.ui.history
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.foundation.background
@@ -22,19 +22,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.H_PADDING_HALF
-import me.timeto.app.MainActivity
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.limitMin
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.toColor
-import me.timeto.app.ui.history.form.HistoryFormFs
-import me.timeto.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.H_PADDING_HALF
+import com.habitarc.app.MainActivity
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.limitMin
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.history.form.HistoryFormFs
+import com.habitarc.app.ui.navigation.LocalNavigationFs
 import me.timeto.shared.vm.history.HistoryVm
 
 private const val barPxSecondsRatio: Int = 60

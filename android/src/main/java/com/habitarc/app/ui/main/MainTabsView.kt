@@ -1,4 +1,4 @@
-package me.timeto.app.ui.main
+package com.habitarc.app.ui.main
 
 import android.view.MotionEvent
 import androidx.compose.animation.animateColorAsState
@@ -27,18 +27,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.timeto.app.ui.HStack
-import me.timeto.app.R
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.halfDpFloor
-import me.timeto.app.Haptic
-import me.timeto.app.toColor
-import me.timeto.app.ui.onePx
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.squircleShape
-import me.timeto.app.ui.timerFont
+import com.habitarc.app.ui.HStack
+import com.habitarc.app.R
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.halfDpFloor
+import com.habitarc.app.Haptic
+import com.habitarc.app.toColor
+import com.habitarc.app.ui.onePx
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.squircleShape
+import com.habitarc.app.ui.timerFont
 import me.timeto.shared.vm.main.MainTabsVm
 
 val MainTabsView__height = 56.dp

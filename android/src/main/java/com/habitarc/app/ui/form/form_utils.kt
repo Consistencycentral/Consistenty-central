@@ -1,4 +1,4 @@
-package me.timeto.app.ui.form
+package com.habitarc.app.ui.form
 
 import androidx.compose.ui.unit.dp
 

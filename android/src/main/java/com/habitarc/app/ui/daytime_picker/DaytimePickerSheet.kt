@@ -1,4 +1,4 @@
-package me.timeto.app.ui.daytime_picker
+package com.habitarc.app.ui.daytime_picker
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.navigationBarsPadding
@@ -10,15 +10,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.VStack
-import me.timeto.app.ui.ZStack
-import me.timeto.app.ui.c
-import me.timeto.app.ui.roundedShape
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.SpacerW1
-import me.timeto.app.ui.header.sheet.HeaderSheet
-import me.timeto.app.ui.header.sheet.HeaderSheetButton
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.VStack
+import com.habitarc.app.ui.ZStack
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.roundedShape
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.SpacerW1
+import com.habitarc.app.ui.header.sheet.HeaderSheet
+import com.habitarc.app.ui.header.sheet.HeaderSheetButton
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.DaytimeUi
 
 @Composable

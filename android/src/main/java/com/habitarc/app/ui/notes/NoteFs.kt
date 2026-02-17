@@ -1,4 +1,4 @@
-package me.timeto.app.ui.notes
+package com.habitarc.app.ui.notes
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,15 +9,15 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import me.timeto.app.ui.H_PADDING
-import me.timeto.app.ui.c
-import me.timeto.app.ui.rememberVm
-import me.timeto.app.ui.Screen
-import me.timeto.app.ui.header.Header
-import me.timeto.app.ui.header.HeaderCancelButton
-import me.timeto.app.ui.header.HeaderSecondaryButton
-import me.timeto.app.ui.navigation.LocalNavigationFs
-import me.timeto.app.ui.navigation.LocalNavigationLayer
+import com.habitarc.app.ui.H_PADDING
+import com.habitarc.app.ui.c
+import com.habitarc.app.ui.rememberVm
+import com.habitarc.app.ui.Screen
+import com.habitarc.app.ui.header.Header
+import com.habitarc.app.ui.header.HeaderCancelButton
+import com.habitarc.app.ui.header.HeaderSecondaryButton
+import com.habitarc.app.ui.navigation.LocalNavigationFs
+import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import me.timeto.shared.db.NoteDb
 import me.timeto.shared.vm.notes.NoteVm
 
