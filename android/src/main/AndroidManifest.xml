@@ -15,9 +15,9 @@
         android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="habitarc app"
+        android:label="habitarc"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Timetome">
+        android:theme="@style/Theme.Habitarc">
 
         <activity
             android:name=".MainActivity"
