@@ -15,7 +15,7 @@
         android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="timeto.me"
+        android:label="habitarc app"
         android:supportsRtl="true"
         android:theme="@style/Theme.Timetome">
 
