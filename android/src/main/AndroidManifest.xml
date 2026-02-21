@@ -18,11 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.habitarc">
 
-        <activity
+       <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Thehabitarcme"
-            android:windowSoftInputMode="adjustResize"> <!-- Docs in MainActivity.kt -->
+            android:theme="@style/Theme.habitarc" 
+            android:windowSoftInputMode="adjustResize">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
